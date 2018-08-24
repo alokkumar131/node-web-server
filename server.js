@@ -6,9 +6,9 @@ app.use(express.static(__dirname+"/public"));
 hbs.registerPartials(__dirname+"/views/partials")
 const port=process.env.PORT || 3000;
 //mantainance work
-app.use((req,res,next)=>{
-    res.render('middleware.hbs')
-})
+// app.use((req,res,next)=>{
+//     res.render('middleware.hbs')
+// })
 //View engine template
 app.get('/home',(requestAnimationFrame,res)=>{
     res.render('home.hbs',{
