@@ -1,1 +1,65 @@
-<h1>Contact page</h1>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="vendors/css/normalize.css" type="text/css">
+        <link rel="stylesheet" href="vendors/css/grid.css" type="text/css">
+        <link rel="stylesheet" href="resources/css/style.css" type="text/css" >
+        <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+       <title>Weblab</title>
+    </head>
+    <body>
+        <header class="contact">
+            <div class="row">
+                <nav>
+                    <img src="./resources/img/contactus.pn">
+                    <ul class="main-nav">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/services">Services</a></li>
+                        <li><a href="/contact">Contactus</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+            <div class="header-content">
+                <h1 class="heading">
+                    A new web experiance for you.<br>
+                    </h1>
+                    
+                    <p>Design is not just what it looks like and feel like.Design is how it works</p>
+                
+                <br>
+                <a class="btn btn-full" href="#">Show more</a>
+                <a class="btn btn-ghost" href="#">About</a>
+
+            </div>
+        </header> 
+        <section>
+            <body>
+
+<h3>Contact Form</h3>
+
+<div class="row container" >
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+        </section>
+    </body>
+</html>

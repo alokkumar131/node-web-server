@@ -12,4 +12,4 @@ app.use('/',route);
 
 app.listen(port,()=>{
     console.log('Server start at port no'+port);
-});
+}); 
