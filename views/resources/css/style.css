@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html{
+    background-color:#fff;
+    color:#525252;
+    font-family:'Lato','Arial','sens-serif';
+    font-weight: 100;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+.row{
+    max-width: 100%;
+    margin:0 auto;
+}
+header{
+    background:url('../img/img_band_la.jpg');
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header-content{
+    position:absolute;
+    max-width: 100%;
+    top:55%;
+    left:15%;
+    
+}
+h1{
+    margin:0;
+    font-size: 200%;
+    font-weight: 300;
+    text-transform: uppercase;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    color:whitesmoke;
+}
+p{
+    color:darkgray;
+}
+.btn{
+border: 1px solid orangered;
+display:inline-block;
+padding: 10px 30px;
+text-decoration: none;
+border-radius:20px;
+}
+.btn-full{
+ background:orangered;
+ color:white;
+}
+.btn-ghost{
+    color:white;
+   
+}
+.btn-ghost:hover{
+    background: orangered;
+    -webkit-transition: width 2s; /* Safari */
+    transition: background .5s;
+}
